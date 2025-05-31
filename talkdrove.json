@@ -1,0 +1,50 @@
+{
+  "bot-name": "PRINCESS-V2",
+  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴍᴀᴄᴏᴅᴇʀ",
+  "logo": "https://files.catbox.moe/73mlk5.jpg",
+  "keywords": ["bot"],
+  "documentation-link": "https://macoder-session-.onrender.com/",
+    "owner-verification":"macodernetwork@gmail.com",
+  
+  "env": {
+    "SESSION_ID": {
+      "description": "Must Start with 'princess~'",
+      "required": true,
+      "value": ""
+    },
+      "BOT_NAME": {
+        "description": "write here your bot name.",
+        "required": true,
+        "value": "〠 ᴘʀɪɴᴄᴇss 〠"      
+    },  
+    "MODE": {
+      "description": "Set private/public/inbox/groups",
+      "required": false,
+      "value": "public"
+     },
+   
+    "PREFIX": {
+      "description": "Your Bot Prefix (default: .) You can put your own custom prefix",
+      "required": true,
+      "value": "."
+    },
+    
+    "OWNER_NAME": {
+      "description": "Put Owner Name Here",
+      "required": true,
+      "value": "ᴍᴀᴄᴏᴅᴇʀ"
+    },
+    "OWNER_NUMBER": {
+      "description": "Put only one Owner Number Here",
+      "required": true,
+      "value": "27656136438"
+    },
+    
+    "PRESENCE": {
+      "description": "Put online/typing/recording/unavailable",
+      "required": true,
+      "value": "online"
+
+    }
+  }
+}
